@@ -1,0 +1,23 @@
+:root {
+  --ink: #0A0D12;
+  --panel: #10151E;
+  --panel-soft: #151B26;
+  --paper: #F4EFE4;
+  --paper-muted: #D8CCBA;
+  --proof-blue: #3B82F6;
+  --source-green: #23C483;
+  --contradiction-red: #F05A5A;
+  --amber-doubt: #D6A23C;
+  --violet-consensus: #8B5CF6;
+  --line: rgba(244, 239, 228, 0.12);
+  --glass: rgba(255, 255, 255, 0.055);
+
+  /* Semantic mappings */
+  --bg: var(--ink);
+  --surface: var(--panel);
+  --surface-soft: var(--panel-soft);
+  --text-primary: var(--paper);
+  --text-muted: var(--paper-muted);
+  --border: var(--line);
+  --accent: var(--proof-blue);
+}
